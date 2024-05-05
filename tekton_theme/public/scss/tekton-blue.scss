@@ -1,16 +1,16 @@
 
 [data-theme="tekton-blue"] {
     /* Background Colors */
-    --gray-50: #E8F5FE;
-    --gray-100: #D0E7FA;
+    --gray-50: #f1f9ff;
+    --gray-100: #faf4d0;
     --gray-200: #A1D0F7;
     --gray-300: #6DB9F1;
     --gray-400: #4091E0;
-    --gray-500: #2567B5;
-    --gray-600: #1C4F8D;
-    --gray-700: #173F6E;
-    --gray-800: #112F4F;
-    --gray-900: #0B1E30;
+    --gray-500: #f3de20;
+    --gray-600: #006cf0;
+    --gray-700: #00ff2a;
+    --gray-800: #08ff77;
+    --gray-900: #ffd900;
 
     /* Primary Text Colors */
     --text-muted: var(--gray-400);
@@ -144,5 +144,6 @@
         .indicator {
             --indicator-dot-#{"" + $color}: var(--bg-#{$color});
         }
+        
     }
 }
