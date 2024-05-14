@@ -24,9 +24,9 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 					info:"Uses system's theme to switch between light and dark mode",
 				},
                 {
-                    name:"tekton-blue",
-                    label: "Tekton-Blue",
-                    info: "Tekton Blue"
+                    name:"u-blue",
+                    label: "u-Blue",
+                    info: "u Blue"
                 }
 			];
 

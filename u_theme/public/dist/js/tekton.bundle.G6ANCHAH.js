@@ -1,5 +1,5 @@
 (() => {
-  // ../tekton_theme/tekton_theme/public/js/theme-switcher.js
+  // ../u_theme/u_theme/public/js/theme-switcher.js
   frappe.provide("frappe.ui");
   frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitcher {
     constructor() {
@@ -24,9 +24,9 @@
             info: "Uses system's theme to switch between light and dark mode"
           },
           {
-            name: "tekton-blue",
-            label: "Tekton-Blue",
-            info: "Tekton Blue"
+            name: "u-blue",
+            label: "u-Blue",
+            info: "u Blue"
           }
         ];
         resolve(this.themes);
@@ -34,7 +34,7 @@
     }
   };
 
-  // ../tekton_theme/tekton_theme/public/js/tekton.bundle.js
+  // ../u_theme/u_theme/public/js/u.bundle.js
   console.log("INJECTED FILE");
 })();
-//# sourceMappingURL=tekton.bundle.G6ANCHAH.js.map
+//# sourceMappingURL=u.bundle.G6ANCHAH.js.map

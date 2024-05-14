@@ -1,9 +1,9 @@
 from . import __version__ as app_version
 
-app_name = "tekton_theme"
-app_title = "Tekton Theme"
+app_name = "u_theme"
+app_title = "u Theme"
 app_publisher = "Vinay Rawat"
-app_description = "Tekton"
+app_description = "u"
 app_email = "vineyrawat@yahoo.com"
 app_license = "MIT"
 
@@ -11,15 +11,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_js =  ["tekton.bundle.js"]
-app_include_css = "tekton.bundle.css"
+app_include_js =  ["u.bundle.js"]
+app_include_css = "u.bundle.css"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/tekton_theme/css/tekton_theme.css"
-# web_include_js = "/assets/tekton_theme/js/tekton_theme.js"
+# web_include_css = "/assets/u_theme/css/u_theme.css"
+# web_include_js = "/assets/u_theme/js/u_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "tekton_theme/public/scss/website"
+# website_theme_scss = "u_theme/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -56,27 +56,27 @@ app_include_css = "tekton.bundle.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-#	"methods": "tekton_theme.utils.jinja_methods",
-#	"filters": "tekton_theme.utils.jinja_filters"
+#	"methods": "u_theme.utils.jinja_methods",
+#	"filters": "u_theme.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "tekton_theme.install.before_install"
-# after_install = "tekton_theme.install.after_install"
+# before_install = "u_theme.install.before_install"
+# after_install = "u_theme.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "tekton_theme.uninstall.before_uninstall"
-# after_uninstall = "tekton_theme.uninstall.after_uninstall"
+# before_uninstall = "u_theme.uninstall.before_uninstall"
+# after_uninstall = "u_theme.uninstall.after_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "tekton_theme.notifications.get_notification_config"
+# notification_config = "u_theme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -115,39 +115,39 @@ app_include_css = "tekton.bundle.css"
 
 # scheduler_events = {
 #	"all": [
-#		"tekton_theme.tasks.all"
+#		"u_theme.tasks.all"
 #	],
 #	"daily": [
-#		"tekton_theme.tasks.daily"
+#		"u_theme.tasks.daily"
 #	],
 #	"hourly": [
-#		"tekton_theme.tasks.hourly"
+#		"u_theme.tasks.hourly"
 #	],
 #	"weekly": [
-#		"tekton_theme.tasks.weekly"
+#		"u_theme.tasks.weekly"
 #	],
 #	"monthly": [
-#		"tekton_theme.tasks.monthly"
+#		"u_theme.tasks.monthly"
 #	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "tekton_theme.install.before_tests"
+# before_tests = "u_theme.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 override_whitelisted_methods = {
-	"frappe.core.doctype.user.user.switch_theme": "tekton_theme.overrides.user.user.switch_theme"
+	"frappe.core.doctype.user.user.switch_theme": "u_theme.overrides.user.user.switch_theme"
 }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "tekton_theme.task.get_dashboard_data"
+#	"Task": "u_theme.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -161,13 +161,13 @@ override_whitelisted_methods = {
 
 # Request Events
 # ----------------
-# before_request = ["tekton_theme.utils.before_request"]
-# after_request = ["tekton_theme.utils.after_request"]
+# before_request = ["u_theme.utils.before_request"]
+# after_request = ["u_theme.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["tekton_theme.utils.before_job"]
-# after_job = ["tekton_theme.utils.after_job"]
+# before_job = ["u_theme.utils.before_job"]
+# after_job = ["u_theme.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -197,5 +197,5 @@ override_whitelisted_methods = {
 # --------------------------------
 
 # auth_hooks = [
-#	"tekton_theme.auth.validate"
+#	"u_theme.auth.validate"
 # ]

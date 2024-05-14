@@ -8,7 +8,7 @@ on:
   pull_request:
 
 concurrency:
-  group: develop-tekton_theme-${{ github.event.number }}
+  group: develop-u_theme-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:
@@ -73,10 +73,10 @@ jobs:
       - name: Install
         working-directory: /home/runner/frappe-bench
         run: |
-          bench get-app tekton_theme $GITHUB_WORKSPACE
+          bench get-app u_theme $GITHUB_WORKSPACE
           bench setup requirements --dev
           bench new-site --db-root-password root --admin-password admin test_site
-          bench --site test_site install-app tekton_theme
+          bench --site test_site install-app u_theme
           bench build
         env:
           CI: 'Yes'
@@ -85,6 +85,6 @@ jobs:
         working-directory: /home/runner/frappe-bench
         run: |
           bench --site test_site set-config allow_tests true
-          bench --site test_site run-tests --app tekton_theme
+          bench --site test_site run-tests --app u_theme
         env:
           TYPE: server

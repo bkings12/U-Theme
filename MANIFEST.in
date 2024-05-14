@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include tekton_theme *.css
-recursive-include tekton_theme *.csv
-recursive-include tekton_theme *.html
-recursive-include tekton_theme *.ico
-recursive-include tekton_theme *.js
-recursive-include tekton_theme *.json
-recursive-include tekton_theme *.md
-recursive-include tekton_theme *.png
-recursive-include tekton_theme *.py
-recursive-include tekton_theme *.svg
-recursive-include tekton_theme *.txt
-recursive-exclude tekton_theme *.pyc
+recursive-include u_theme *.css
+recursive-include u_theme *.csv
+recursive-include u_theme *.html
+recursive-include u_theme *.ico
+recursive-include u_theme *.js
+recursive-include u_theme *.json
+recursive-include u_theme *.md
+recursive-include u_theme *.png
+recursive-include u_theme *.py
+recursive-include u_theme *.svg
+recursive-include u_theme *.txt
+recursive-exclude u_theme *.pyc

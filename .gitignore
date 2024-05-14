@@ -3,5 +3,5 @@
 *.egg-info
 *.swp
 tags
-tekton_theme/docs/current
+u_theme/docs/current
 node_modules/
